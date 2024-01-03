@@ -1,0 +1,29 @@
+.about-us {
+    text-align: center;
+    padding: 20px;
+    background-color: #73559c5b;
+  }
+  
+  .about-us h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #72559C;
+  }
+  
+  .about-us p {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #72559C;
+  }
+  .Carousel {
+    width: 660px; 
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  @media (max-width: 768px) {
+    .Carousel {
+      width: 100%; 
+    }
+  }

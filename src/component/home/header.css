@@ -1,0 +1,46 @@
+header {
+    background: url('../../assets/main.png') right no-repeat;
+    background-color: #30087221;
+    background-size: 130vh;
+    height: 90vh;
+    overflow: hidden;
+    max-width: 100%;
+    padding: 100px 0px;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%;
+}
+
+header h2 {
+    font-size: 58px;
+    text-align: left;
+    margin-top: 40px;
+    color: #73559cb4;
+    line-height: 100px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    width: 80vh;
+    margin-left: 6rem;
+}
+
+@media (max-width: 768px) {
+    header {
+      height: auto;
+      padding: 100px 0 40px; 
+      margin-top: 10px;
+      background-size: 100%;
+      background-size: cover;
+    }
+  
+    header h2 {
+      font-size: 20px;
+      line-height: 60px;
+      margin-top: 40px;
+      width: 100%;
+      color: #956ad2fd;
+      margin-left: 1rem; 
+      text-align: center; 
+    }
+}
+
